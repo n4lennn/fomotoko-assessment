@@ -1,4 +1,4 @@
-# Fomotoko Assessment — Fullstack Developer
+# Fomotoko Assessment — Fullstack Engineer
 
 ## Task 1: Online Store API
 
