@@ -41,6 +41,10 @@ yang bisa mengubah stok dalam satu waktu.
 ### Jalankan Test
 
 ```bash
+# Buat database test dulu di MySQL
+CREATE DATABASE fomotoko_assessment_test;
+
+# Lalu jalankan test
 php artisan test --filter=FlashSaleRaceConditionTest
 ```
 
