@@ -34,7 +34,7 @@ class ProductController extends Controller
             'stock' => 'required|integer|min:0',
         ]);
 
-        $product = Product::create($validated);
+        $product = Product::create($validatedData);
         return response()->json($product, 201);
     }
 
